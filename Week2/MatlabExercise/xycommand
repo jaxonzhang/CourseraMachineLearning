@@ -1,0 +1,47 @@
+ls
+
+.          ..         xy.mat     xycommand  
+
+cat xycommand
+{Error using <a href="matlab:helpUtils.errorDocCallback('cat')" style="font-weight:bold">cat</a>
+Dimension must be a real positive finite integer.
+} 
+x = y
+
+x =
+
+     1     4     7
+     2     5     8
+     3     6     9
+
+z = y'
+
+z =
+
+     1     2     3
+     4     5     6
+     7     8     9
+
+who
+
+Your variables are:
+
+x  y  z  
+
+y = log(z)
+
+y =
+
+         0    0.6931    1.0986
+    1.3863    1.6094    1.7918
+    1.9459    2.0794    2.1972
+
+whos
+  Name      Size            Bytes  Class     Attributes
+
+  x         3x3                72  double              
+  y         3x3                72  double              
+  z         3x3                72  double              
+
+diary xycommand
+quit
